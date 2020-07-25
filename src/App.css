@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+}
+.w-100{
+  width:100%;
+}
+.p-1{
+  padding: 10px;
+}
+.pt-4{
+  padding-top: 40px;
+}
+.pb-4{
+  padding-bottom: 40px;
+}
+.pr-1{
+  padding-right:10px;
+}
+.mb-4{
+  margin-bottom: 40px;
+}
+.mb-6{
+  margin-bottom: 60px;
+}
+
+.mt-6{
+  margin-top: 60px;
+}
+.pl-5{
+  padding-left: 50px;
+}
+.flex{
+  display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+.grid-2{
+  display:grid;
+  grid-template-columns: 1fr  1fr;
+}
+.grid-3{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.w-50{
+  width: 50%;
+}
+.ai-c{
+  align-items:center;
+}
+
+.p-relative{
+  position:relative;
+}
+.container{
+  padding:0 0.1em;
+}
+.justify-sb{
+  justify-content: space-between;
+}
+.justify-se{
+  justify-content: space-evenly;
+}
+.text-center{
+  text-align: center;
+}
+.r-curve{
+  border-radius: 50px;
+  border:1px solid white
+}
+.btn-trans{
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-shadow: 1px 1px 5px rgb(233, 231, 231);
+}
+header #signBtn{
+  display: flex;
+}
+header #signBtn button{
+  border: none;
+  color: white;
+  padding: 10px 15px;
+}
+header #signBtn button:first-child{
+  
+  border-radius: 50px 0 0 50px;
+  background: rgb(80, 126, 245);
+}
+header #signBtn button:last-child{
+  background: rgb(53, 109, 251);
+  border-radius:0 50px  50px 0;
+}
+main#homepage{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px 40px;
+
+}
+main#homepage h1{
+  font-size: 50px;
+  padding-bottom: 40px;
+  font-weight:400;
+}
+main#homepage ul li{
+  padding: 15px 0;
+  margin-left: 20px;
+  list-style-image: url(./images/liStyle.png);
+}
+main#homepage .getStarted{
+  margin-top: 100px;
+  padding: 20px 0;
+}
+main#homepage .getStarted button{
+  padding:20px 60px;
+  border: none;
+  border-radius: 50px;
+  background: rgb(53, 109, 251);
+  color: white;
+}
+main#homepage .bgCon{
+  background: url(./images/bgCon.png);
+  padding: 20px;
+  position: absolute;
+  width: 200px;
+  height:50px;
+  left: -20px;
+  top: -20px;
+  z-index:-1;
+}
+main#homepage .bgCon-bottom{
+  background: url(./images/bgCon.png);
+  padding: 20px;
+  position: absolute;
+  width: 200px;
+  height:50px;
+  left: -20px;
+  z-index:-1;
+  bottom:-20px;
+}
+main#homepage .right p{
+  padding: 10px;
+  background: #fff;
+}
+
+
+footer{
+  text-align: center;
+  font-size: 12px;
+  border-top: 1px solid rgb(194, 193, 193);
+  padding: 20px 30px;
+}
